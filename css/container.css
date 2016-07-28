@@ -99,3 +99,66 @@ body {
 .cactive .hidden {
     display: block;
 }
+
+.delay {
+    animation-delay: 2s;
+}
+
+.delay600 {
+    animation-delay: 600ms;
+}
+
+.delay600 {
+    animation-delay: 600ms;
+}
+
+.delay900 {
+    animation-delay: 900ms;
+}
+
+.delay1200 {
+    animation-delay: 1200ms;
+}
+
+.delay1500 {
+    animation-delay: 1500ms;
+}
+
+.delay1800 {
+    animation-delay: 1800ms;
+}
+
+.delay2100 {
+    animation-delay: 2100ms;
+}
+
+@keyframes pound {
+    from {
+        transform: none;
+    }
+    50% {
+        transform: scale(0.4);
+    }
+    to {
+        transform: none;
+    }
+}
+
+.heart {
+    /* ... */
+    animation: pound 2.5s infinite;
+}
+
+@keyframes bigger {
+    from {
+        transform: scale(0.4);
+    }
+    to {
+        transform: none;
+    }
+}
+
+.bigger {
+    /* ... */
+    animation: bigger 1s;
+}
