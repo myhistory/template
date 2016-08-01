@@ -1,0 +1,147 @@
+/* @keyframes duration | timing-function | delay | 
+   iteration-count | direction | fill-mode | play-state | name */
+
+.lball2 {
+    animation: 1s both rollIn, 2s 1s infinite alternate m2ball;
+}
+
+.lball22 {
+    animation: 1s both rollInLeft, 2s 1.2s infinite alternate m2ball;
+}
+
+.lball24 {
+    animation: 1s both rollInLeft, 2s 2.4s infinite alternate m2ball;
+}
+
+.lball26 {
+    animation: 1s both rollInLeft, 2s 1.6s infinite alternate m2ball;
+}
+
+.lball28 {
+    animation: 1s both rollInLeft, 2s 2.8s infinite alternate m2ball;
+}
+
+.lball {
+    animation: 1s 1s both rollIn, 2s 2s infinite alternate m2ball;
+}
+
+.lball2 {
+    animation: 1s 1s both rollInLeft, 2s 2.2s infinite alternate m2ball;
+}
+
+.lball4 {
+    animation: 1s 1s both rollIn, 2s 2.4s infinite alternate m2ball;
+}
+
+.lball6 {
+    animation: 1s 1s both rollIn, 2s 2.6s infinite alternate m2ball;
+}
+
+.lball8 {
+    animation: 1s 1s both rollIn, 2s 2.8s infinite alternate m2ball;
+}
+
+.lball32 {
+    animation: 1s 1s both rollIn, 2s 3.2s infinite alternate m2ball;
+}
+
+.lball36 {
+    animation: 1s 1s both rollIn, 2s 3.6s infinite alternate m2ball;
+}
+
+.lball38 {
+    animation: 1s 1s both rollIn, 2s 3.8s infinite alternate m2ball;
+}
+
+@keyframes m2ball {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+}
+
+@-webkit-keyframes m2ball {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+}
+
+@keyframes lbigger {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes lbigger {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes rollInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+        transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes rollInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+        transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.rollInLeft {
+    -webkit-animation-name: rollInLeft;
+    animation-name: rollInLeft;
+}

@@ -1,0 +1,140 @@
+
+
+.animating {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.cactive .hidden {
+    display: block;
+}
+
+.delay {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.delay600 {
+    -webkit-animation-delay: 600ms;
+    animation-delay: 600ms;
+}
+
+.delay600 {
+    -webkit-animation-delay: 600ms;
+    animation-delay: 600ms;
+}
+
+.delay900 {
+    -webkit-animation-delay: 900ms;
+    animation-delay: 900ms;
+}
+
+.delay1200 {
+    -webkit-animation-delay: 1200ms;
+    animation-delay: 1200ms;
+}
+
+.delay1500 {
+    -webkit-animation-delay: 1500ms;
+    animation-delay: 1500ms;
+}
+
+.delay1800 {
+    -webkit-animation-delay: 1800ms;
+    animation-delay: 1800ms;
+}
+
+.delay2100 {
+    -webkit-animation-delay: 2100ms;
+    animation-delay: 2100ms;
+}
+
+.delay2400 {
+    -webkit-animation-delay: 2400ms;
+    animation-delay: 2400ms;
+}
+
+.delay2700 {
+    -webkit-animation-delay: 2700ms;
+    animation-delay: 2700ms;
+}
+
+.delay3000 {
+    -webkit-animation-delay: 3000ms;
+    animation-delay: 3000ms;
+}
+
+.delay3300 {
+    -webkit-animation-delay: 3300ms;
+    animation-delay: 3300ms;
+}
+
+.delay3600 {
+    -webkit-animation-delay: 3600ms;
+    animation-delay: 3600ms;
+}
+
+@keyframes pound {
+    from {
+        transform: none;
+        -webkit-transform: none;
+    }
+    50% {
+        transform: scale(0.4);
+        -webkit-transform: scale(0.4);
+    }
+    to {
+        transform: none;
+        -webkit-transform: none;
+    }
+}
+
+.heart {
+    /* ... */
+    animation: pound 2.5s infinite;
+    -webkit-animation: pound 2.5s infinite;
+}
+
+@keyframes bigger {
+    from {
+        transform: scale(0.4);
+        -webkit-transform: scale(0.4);
+    }
+    to {
+        transform: none;
+        -webkit-transform: none;
+    }
+}
+
+.bigger {
+    /* ... */
+    animation: bigger 1s;
+    -webkit-animation: bigger 1s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.fadein {
+    /* ... */
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    /* ... */
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: backwards;
+}
