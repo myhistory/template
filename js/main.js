@@ -8,9 +8,10 @@ var swiper = new Swiper('.swiper-container', {
     },
     onSlideChangeEnd: function() {
 
-            slides.removeClass('cactive').eq(swiper.snapIndex).addClass('cactive');
+        slides.removeClass('cactive').eq(swiper.snapIndex).addClass('cactive');
 
-        }
+    },
+    direction: 'vertical'
         // cube: {
         //     shadow: true,
         //     slideShadows: true,

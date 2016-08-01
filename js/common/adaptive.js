@@ -8,10 +8,16 @@
     var viewportHeight = screen.height;
     var viewportRatio = viewportWidth / viewportHeight;
     var scale = 1;
-    if (viewportRatio < ratio) {
+    if (viewportRatio < ratio) { //放大
         scale = (viewportHeight / viewportWidth) / (height / width);
         Array.prototype.slice.call(document.querySelectorAll('.cviewport')).forEach(function(x) {
             // x.style.transform = 'scale(' + scale + ')';
+        });
+    }
+    if (viewportRatio > ratio) { //缩小
+        scale = (viewportHeight / viewportWidth) / (height / width);
+        Array.prototype.slice.call(document.querySelectorAll('.cviewport')).forEach(function(x) {
+            x.style.transform = 'scale(' + scale + ')';
         });
     }
 }();
