@@ -3146,17 +3146,36 @@
     animation-name: slideOutUp;
 }
 
+@-webkit-keyframes upper {
+    from,
+    0%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: scale(1, 0);
+        transform: scale(1, 0);
+    }
+    100% {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+}
+
 @keyframes upper {
     from,
     0%,
     to {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: scale(1, 0);
         transform: scale(1, 0);
     }
     100% {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: scale(1, 1);
         transform: scale(1, 1);
     }
 }
@@ -3168,17 +3187,36 @@
     transform-origin: center bottom;
 }
 
+@-webkit-keyframes downer {
+    from,
+    0%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: scale(1, 0);
+        transform: scale(1, 0);
+    }
+    100% {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+}
+
 @keyframes downer {
     from,
     0%,
     to {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: scale(1, 0);
         transform: scale(1, 0);
     }
     100% {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: scale(1, 1);
         transform: scale(1, 1);
     }
 }
@@ -3190,17 +3228,36 @@
     transform-origin: center top;
 }
 
+@-webkit-keyframes righter {
+    from,
+    0%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: scale(0, 1);
+        transform: scale(0, 1);
+    }
+    100% {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+}
+
 @keyframes righter {
     from,
     0%,
     to {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: scale(0, 1);
         transform: scale(0, 1);
     }
     100% {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: scale(1, 1);
         transform: scale(1, 1);
     }
 }
