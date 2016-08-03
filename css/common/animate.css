@@ -3147,9 +3147,7 @@
 }
 
 @-webkit-keyframes upper {
-    from,
-    0%,
-    to {
+    0% {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         -webkit-transform: scale(1, 0);
@@ -3164,9 +3162,7 @@
 }
 
 @keyframes upper {
-    from,
-    0%,
-    to {
+    0% {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         -webkit-transform: scale(1, 0);
@@ -3188,9 +3184,7 @@
 }
 
 @-webkit-keyframes downer {
-    from,
-    0%,
-    to {
+    0% {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         -webkit-transform: scale(1, 0);
@@ -3205,9 +3199,7 @@
 }
 
 @keyframes downer {
-    from,
-    0%,
-    to {
+    0% {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         -webkit-transform: scale(1, 0);
@@ -3229,9 +3221,7 @@
 }
 
 @-webkit-keyframes righter {
-    from,
-    0%,
-    to {
+    0% {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         -webkit-transform: scale(0, 1);
@@ -3246,9 +3236,7 @@
 }
 
 @keyframes righter {
-    from,
-    0%,
-    to {
+    0% {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         -webkit-transform: scale(0, 1);
