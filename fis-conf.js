@@ -1,5 +1,5 @@
 fis.media('build').match('*', {
-    domain: 'http://zt.m.emao.com/201607/Q2bps/'
+    domain: 'http://zt.m.emao.com/201607/Q2bps'
 }).match('::package', {
     postpackager: fis.plugin('loader', {
         allInOne: true
