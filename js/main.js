@@ -11,11 +11,14 @@ var swiper = new Swiper('.swiper-container', {
         slides.removeClass('cactive').eq(swiper.snapIndex).addClass('cactive');
 
     },
-    direction: 'vertical'
-        // cube: {
-        //     shadow: true,
-        //     slideShadows: true,
-        //     shadowOffset: 20,
-        //     shadowScale: 0.94
-        // }
+    direction: 'vertical',
+    lazyLoading: true,
+    lazyLoadingInPrevNext: true,
+    lazyLoadingInPrevNextAmount: 2,
+    // cube: {
+    //     shadow: true,
+    //     slideShadows: true,
+    //     shadowOffset: 20,
+    //     shadowScale: 0.94
+    // }
 });
