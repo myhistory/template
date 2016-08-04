@@ -2,68 +2,68 @@
    iteration-count | direction | fill-mode | play-state | name */
 
 .lball2 {
-    -webkit-animation: 1s both rollIn, 2s 1s infinite alternate m2ball;
-    animation: 1s both rollIn, 2s 1s infinite alternate m2ball;
+    -webkit-animation: 1s both fadeIn, 2s 1s infinite alternate m2ball;
+    animation: 1s both fadeIn, 2s 1s infinite alternate m2ball;
 }
 
 .lball22 {
-    -webkit-animation: 1s both rollIn, 2s 1.2s infinite alternate m2ball;
-    animation: 1s both rollIn, 2s 1.2s infinite alternate m2ball;
+    -webkit-animation: 1s both fadeIn, 2s 1.2s infinite alternate m2ball;
+    animation: 1s both fadeIn, 2s 1.2s infinite alternate m2ball;
 }
 
 .lball24 {
-    -webkit-animation: 1s both rollInLeft, 2s 2.4s infinite alternate m2ball;
-    animation: 1s both rollInLeft, 2s 2.4s infinite alternate m2ball;
+    -webkit-animation: 1s both fadeIn, 2s 2.4s infinite alternate m2ball;
+    animation: 1s both fadeIn, 2s 2.4s infinite alternate m2ball;
 }
 
 .lball26 {
-    -webkit-animation: 1s both rollInLeft, 2s 1.6s infinite alternate m2ball;
-    animation: 1s both rollInLeft, 2s 1.6s infinite alternate m2ball;
+    -webkit-animation: 1s both fadeIn, 2s 1.6s infinite alternate m2ball;
+    animation: 1s both fadeIn, 2s 1.6s infinite alternate m2ball;
 }
 
 .lball28 {
-    -webkit-animation: 1s both rollIn, 2s 2.8s infinite alternate m2ball;
-    animation: 1s both rollIn, 2s 2.8s infinite alternate m2ball;
+    -webkit-animation: 1s both fadeIn, 2s 2.8s infinite alternate m2ball;
+    animation: 1s both fadeIn, 2s 2.8s infinite alternate m2ball;
 }
 
 .lball {
-    -webkit-animation: 1s 1s both rollIn, 2s 2s infinite alternate m2ball;
-    animation: 1s 1s both rollIn, 2s 2s infinite alternate m2ball;
+    -webkit-animation: 1s 1s both fadeIn, 2s 2s infinite alternate m2ball;
+    animation: 1s 1s both fadeIn, 2s 2s infinite alternate m2ball;
 }
 
 
 /*.lball2 {
-    animation: 1s 1s both rollInLeft, 2s 2.2s infinite alternate m2ball;
+    animation: 1s 1s both fadeIn, 2s 2.2s infinite alternate m2ball;
 }*/
 
 .lball4 {
-    -webkit-animation: 1s 1s both rollIn, 2s 2.4s infinite alternate m2ball;
-    animation: 1s 1s both rollIn, 2s 2.4s infinite alternate m2ball;
+    -webkit-animation: 1s 1s both fadeIn, 2s 2.4s infinite alternate m2ball;
+    animation: 1s 1s both fadeIn, 2s 2.4s infinite alternate m2ball;
 }
 
 .lball6 {
-    -webkit-animation: 1s 1s both rollIn, 2s 2.6s infinite alternate m2ball;
-    animation: 1s 1s both rollIn, 2s 2.6s infinite alternate m2ball;
+    -webkit-animation: 1s 1s both fadeIn, 2s 2.6s infinite alternate m2ball;
+    animation: 1s 1s both fadeIn, 2s 2.6s infinite alternate m2ball;
 }
 
 .lball8 {
-    -webkit-animation: 1s 1s both rollIn, 2s 2.8s infinite alternate m2ball;
-    animation: 1s 1s both rollIn, 2s 2.8s infinite alternate m2ball;
+    -webkit-animation: 1s 1s both fadeIn, 2s 2.8s infinite alternate m2ball;
+    animation: 1s 1s both fadeIn, 2s 2.8s infinite alternate m2ball;
 }
 
 .lball32 {
-    -webkit-animation: 1s 1s both rollIn, 2s 3.2s infinite alternate m2ball;
-    animation: 1s 1s both rollIn, 2s 3.2s infinite alternate m2ball;
+    -webkit-animation: 1s 1s both fadeIn, 2s 3.2s infinite alternate m2ball;
+    animation: 1s 1s both fadeIn, 2s 3.2s infinite alternate m2ball;
 }
 
 .lball36 {
-    -webkit-animation: 1s 1s both rollIn, 2s 3.6s infinite alternate m2ball;
-    animation: 1s 1s both rollIn, 2s 3.6s infinite alternate m2ball;
+    -webkit-animation: 1s 1s both fadeIn, 2s 3.6s infinite alternate m2ball;
+    animation: 1s 1s both fadeIn, 2s 3.6s infinite alternate m2ball;
 }
 
 .lball38 {
-    -webkit-animation: 1s 1s both rollIn, 2s 3.8s infinite alternate m2ball;
-    animation: 1s 1s both rollIn, 2s 3.8s infinite alternate m2ball;
+    -webkit-animation: 1s 1s both fadeIn, 2s 3.8s infinite alternate m2ball;
+    animation: 1s 1s both fadeIn, 2s 3.8s infinite alternate m2ball;
 }
 
 @keyframes m2ball {

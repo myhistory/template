@@ -19,6 +19,21 @@
     animation-delay: 2s;
 }
 
+.delay300 {
+    -webkit-animation-delay: 300ms;
+    animation-delay: 300ms;
+}
+
+.delay200 {
+    -webkit-animation-delay: 200ms;
+    animation-delay: 200ms;
+}
+
+.delay400 {
+    -webkit-animation-delay: 400ms;
+    animation-delay: 400ms;
+}
+
 .delay600 {
     -webkit-animation-delay: 600ms;
     animation-delay: 600ms;
